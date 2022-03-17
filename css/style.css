@@ -269,3 +269,66 @@
     height: 12px;
 }
 /* End About Me Area */
+
+
+/* Subscibe me */
+
+.site-main .Subscribe-us-area .subscribe{
+    background: url(../img/subscribe-bg.png) no-repeat;
+    padding: 10rem 0;
+    margin: 3rem auto;
+}
+
+
+.site-main .Subscribe-us-area .subscribe .subscribe-title h4{
+    font: normal 700 25px/12px var(--roboto);
+    color: white;
+    padding: 1rem;
+}
+
+.site-main .Subscribe-us-area .subscribe .subscribe-title p{
+    color: white;
+    padding: 1rem 4rem;
+}
+
+.site-main .Subscribe-us-area .subscribe form .input-textbox input{
+    width: 400px;
+    padding: 0.8rem;
+    border: 1px solid whitesmoke;
+    color: white;
+    background: transparent;
+    font: normal 500 17px/20px var(--roboto);
+}
+
+.input-textbox input::placeholder{
+    color: white;
+}
+
+.btn-submit button{
+    background: white;
+    color: black;
+    padding: 0.7rem 2rem;
+}
+/* End Subscibe me */
+
+/* Footer area */
+
+.footer-area {
+    padding: 5rem 0;
+    background: url(../img/footer-bg.png) no-repeat;
+}
+
+.footer-area .social h5{
+    font: normal 500 23px/30px var(--roboto);
+}
+
+.footer-area .social a>i{
+    font-size: 22px;
+    padding: 2rem;
+    color: var(--border-color);
+}
+
+.footer-area .social a:hover>i{
+    color: var(--primary-color);
+}
+/* End Footer area */
